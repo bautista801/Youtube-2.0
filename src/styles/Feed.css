@@ -1,0 +1,66 @@
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    height: auto;
+} 
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(73, 73, 73);
+    border-radius: .5rem;
+}
+
+.fixed {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    z-index: 1;
+}
+
+.absolute {
+    position: absolute;
+    height: auto;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 756px) {
+    .fixed {
+        height: auto;
+        width: 100%;
+    }
+
+    .absolute {
+        margin-top: 5rem;
+        left: 0;
+        width: auto;
+    }
+
+    .title-h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/*---------   Estilos SearchFeed    -----------*/
+
+.results {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.title-h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.word {
+    color: #9147ff;
+}

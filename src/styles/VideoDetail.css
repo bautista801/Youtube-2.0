@@ -1,0 +1,85 @@
+.limit {
+    max-width: 916px;
+}
+
+.react-player {
+    width: 100%!important;
+    height: 517px!important;
+}
+
+.video {
+    padding-top: 6rem;
+}
+
+.titleVideo {
+    color: #fff;
+    width: 85%;
+    margin-top: 2rem;
+    padding: 0 10px;
+}
+
+.infoVideo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 112, 112);
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.infoVideo > div > a {
+    color: #fff;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.infoVideo > div > a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.visits {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.likes {
+    display: flex;
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.icon-like {
+    color: #fff;
+    font-size: xx-large;
+    margin: auto 10px auto 5px;
+}
+
+.number-likes {
+    color: #fff;
+    font-size: x-large;
+    margin: auto 15px;
+}
+
+@media (max-width: 768px) {
+
+    .react-player {
+        height: 318px!important;
+    }
+    
+}
+
+@media (max-width: 586px) {
+
+    .titleVideo {
+        text-align: left;
+    }
+
+    .video {
+        padding-top: 5rem;
+    }
+
+}

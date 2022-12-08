@@ -1,0 +1,43 @@
+.carta {
+    width: 358px;
+    height: 310px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carta:hover {
+    transform: translateY(-5px);   
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    justify-content: center;
+}
+
+h5 {
+    text-decoration: none;
+    font-size: large;
+}
+
+h6 {
+    font-size: small;
+    color: rgb(211, 211, 211);
+    margin-top: 1rem;
+}
+
+.title-h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+.cartaCanal {
+    width: 358px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cardContent > img {
+    margin: auto;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #fff;
+}
+
+.titleChannel {
+    color: aliceblue;
+    font-size: xx-large;
+}

@@ -1,0 +1,10 @@
+.gradiente {
+    height: 300px;
+    background: rgb(37, 191, 207);
+    background: linear-gradient(72deg, rgba(37, 191, 207, 1) 0%, rgba(2, 136, 217, 1) 50%, rgba(145, 71, 255, 1) 100%);
+    z-index: 10;
+}
+
+.top {
+    margin-top: -7rem;
+}
