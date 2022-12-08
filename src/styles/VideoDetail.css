@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(112, 112, 112);
+    background-color: #5f5f5f;
     padding: 20px 0;
     border-radius: 5px;
 }
@@ -35,7 +35,7 @@
 }
 
 .infoVideo > div > a:hover {
-    background-color: #444;
+    background-color: #252525;
     border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@
 
 .likes {
     display: flex;
-    background-color: #444;
+    background-color: #252525;
     padding: 5px 10px;
     border-radius: 10px;
     margin-right: 10px;

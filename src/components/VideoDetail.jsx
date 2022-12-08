@@ -34,7 +34,7 @@ const VideoDetail = () => {
         </div>
         <h3 className='titleVideo'>{title}</h3>
         <div className='infoVideo'>
-          <div>
+          <div className='ms-2'>
             <Link to={`/channel/${channelId}`}>
               <span>
                 {channelTitle}
